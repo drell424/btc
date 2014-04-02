@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- YOU ARE IN: btc/index.html -->
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+
+	<title>btc</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Bitcoin Converter</h1>
+		</header> 	
+		
+		<div class='current-price'>
+			<h2>Current Bitcoin Price</h2>
+			<h2>$<span id="btcPrice"></span></h2>
+		</div>
+		<div class='converter'>
+			<span class='curr'>USD</span><span class='curr'>BTC</span><br>
+			<input id='inpUSD' type='text' placeholder='USD'>
+			<span>></span>
+			<input id='inpBTC' type='text' placeholder='BTC'>
+		</div>
+		<button id='convert'>Convert</button>
+		<footer>
+			<p>Made by <a href='http://drell.me'>drell </a></p>
+			<p>Powered by <a href='http://www.coindesk.com/price/'>CoinDesk</a></p>
+			
+		</footer>
+	</div><!-- #container --> 
+	<script src="javascript/script.js"></script>
+
+</body>
+</html>
